@@ -50,7 +50,7 @@ print('-' * 50)
 
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
-mail.To = 'villagranfurg@gmail.com'
+mail.To = '###########@gmail.com'
 mail.Subject = 'Relatório de vendas do Excel para Python'
 mail.HTMLBody = f'''
 <p>Esse é o relatório de vendas que foi feito atráves do Python 
